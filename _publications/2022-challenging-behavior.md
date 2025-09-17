@@ -1,5 +1,6 @@
 ---
-title: "Developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities” collection: publications
+title: "Developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities” 
+collection: publications
 date: 2022-06-26
 venue: "International Journal of Developmental Disabilities"
 category: journals      # ← ここが見出しに対応
