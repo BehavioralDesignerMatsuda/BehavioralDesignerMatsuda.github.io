@@ -25,18 +25,22 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Soichiro Matsuda"
+  pronouns         : "he/his"  
   bio              : "Assistant Professor, University of Tsukuba | Behavioral Design Lab"
   location         : "Tsukuba, Japan"
   employer         : "University of Tsukuba"
+  uri              : # URL
   email            : "matsuda.soichiro.gm@u.tsukuba.ac.jp" 
 
   # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.co.jp/citations?user=WCnMiF4AAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-9257-2502"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Soichiro-Matsuda"
   scopus           : # URL
 
@@ -50,7 +54,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
