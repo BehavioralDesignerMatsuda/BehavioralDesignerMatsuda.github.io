@@ -81,12 +81,21 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  journals:
+    title: 'Peer-reviewed Journal Articles｜査読付き論文'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Papers｜査読付き国際会議論文'
+  books:
+    title: 'Books & Chapters｜書籍・章'
+  domestic:
+    title: 'Domestic Journals (Japanese)｜国内誌（査読付き）'
+  others:
+    title: 'Other Publications｜その他（解説・非査読など）'
+  theses:
+    title: 'Theses｜学位論文'
+  media:
+    title: 'Media｜メディア掲載'
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
