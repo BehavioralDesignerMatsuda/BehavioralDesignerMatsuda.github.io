@@ -1,10 +1,13 @@
 ---
 title: "Publications｜論文"
 permalink: /publications/
-layout: collection
-collection: publications
+layout: single
 author_profile: true
-entries_layout: list   # gridに変えるとカード風
-sort_by: date
-sort_order: reverse
 ---
+
+<div class="entries-list">
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for post in pubs %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>
