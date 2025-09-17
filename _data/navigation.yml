@@ -11,6 +11,7 @@ main:
   - title: "About｜自己紹介"
     url: /
   - title: "Research｜研究"
+    url: "#"
     children:
       - title: "Projects｜研究プロジェクト"
         url: /projects/
