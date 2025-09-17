@@ -10,8 +10,6 @@
 main:
   - title: "About｜自己紹介"
     url: /
-  - title: "Research｜研究"
-    url: "#"
   - title: "Projects｜研究プロジェクト"
     url: /projects/
   - title: "Publications｜論文"
