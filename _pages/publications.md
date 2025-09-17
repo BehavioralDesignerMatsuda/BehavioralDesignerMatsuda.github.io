@@ -1,4 +1,4 @@
-
+yaml
 ---
 title: "Publications｜論文"
 permalink: /publications/
