@@ -11,7 +11,8 @@ author_profile: true
   <a href="/talks/domestic/">Domestic</a> ｜ 
   <a href="/talks/invited/">Invited</a> ｜ 
   <a href="/talks/symposium/">Symposium</a> ｜ 
-  <a href="/talks/poster/">Poster</a>
+  <a href="/talks/poster/">Poster</a> ｜
+　 <a href="/talks/outreach/">Outreach</a>  
 </p>
 <hr/>
 
