@@ -6,5 +6,6 @@ audience: international
 format: oral
 event: "Tsukuba Conference 2021 — The Social Brain 2.0"
 location: "Online"
-excerpt: 
+authors: "Soichiro Matsuda"
+excerpt: "Larry J. Young & Sonoko Ogawa (organizers)
 ---
