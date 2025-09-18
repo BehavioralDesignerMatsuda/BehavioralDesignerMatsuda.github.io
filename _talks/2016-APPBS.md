@@ -6,5 +6,6 @@ audience: international
 format: oral
 event: "2016 APPBS (Asia Pacific International Conference on Positive Behavior Support)"
 location: "Taipei, Taiwan"
+authors: "Matsuda, S., Sekine, S., Tsuji, A., Hachisu, T., Yamamoto, J., & Suzuki, K"
 excerpt: 
 ---
