@@ -7,5 +7,5 @@ format: oral
 event: "Intervention for Social and Communication Skills in Children with Autism Spectrum Disorder"
 org: "Keio Advanced Research Center: Global Research Center of Logic and Sensibility"
 location: "Kyoto, Japan"
-excerpt: "Workshop talk on computational approaches to social behavior in ASD."
+excerpt: 
 ---
