@@ -1,0 +1,32 @@
+<article class="archive__item">
+  <h2 class="archive__item-title">
+    {% if post.link %}
+      <a href="{{ post.link }}">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h2>
+
+  <p class="archive__item-meta">
+    {% comment %} Authors {% endcomment %}
+    {% if post.authors %}
+      {% if post.authors.first %}
+        <strong>Authors:</strong> {{ post.authors | join: ", " }}<br>
+      {% else %}
+        <strong>Authors:</strong> {{ post.authors }}<br>
+      {% endif %}
+    {% endif %}
+
+    {% comment %} Event / Location {% endcomment %}
+    {% if post.event %}
+      <strong>Event:</strong> {{ post.event }}{% if post.location %}, {{ post.location }}{% endif %}<br>
+    {% endif %}
+
+    {% comment %} Presented (replace Published) {% endcomment %}
+    <strong>Presented:</strong> {{ post.date | date: "%Y-%m-%d" }}
+    {% if post.format %} • {{ post.format | capitalize }}{% endif %}
+    {% if post.audience %} • {{ post.audience | capitalize }}{% endif %}
+  </p>
+
+  {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+</article>
