@@ -6,6 +6,7 @@ audience: international
 format: oral
 event: "Intervention for Social and Communication Skills in Children with Autism Spectrum Disorder"
 org: "Keio Advanced Research Center: Global Research Center of Logic and Sensibility"
-location: "Kyoto, Japan"
+location: "Mita, Japan"
+authors: "Soichiro Matsuda"
 excerpt: 
 ---
