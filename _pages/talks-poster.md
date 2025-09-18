@@ -7,6 +7,6 @@ author_profile: true
 <div class="entries-list">
 {% assign items = site.talks | where: "format", "poster" | sort: "date" | reverse %}
 {% for post in items %}
-  {% include archive-single.html %}
+  {% include custom/archive-talk.html post=post %}
 {% endfor %}
 </div>
