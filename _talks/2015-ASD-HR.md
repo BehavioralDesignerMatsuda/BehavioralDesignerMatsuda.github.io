@@ -6,5 +6,6 @@ audience: international
 format: oral
 event: "International Workshop on Intervention of Children with Autism Spectrum Disorders using a Humanoid Robot (ASD-HR 2015)"
 location: "Hiyoshi, Japan"
+authors: "Soichiro Matsuda"
 excerpt: 
 ---
