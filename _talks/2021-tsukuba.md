@@ -6,5 +6,5 @@ audience: international
 format: oral
 event: "Tsukuba Conference 2021 — The Social Brain 2.0"
 location: "Online"
-excerpt: "Invited talk on technology-assisted behavioral design for human-human interaction."
+excerpt: 
 ---
