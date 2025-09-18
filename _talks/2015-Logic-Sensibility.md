@@ -1,7 +1,7 @@
 ---
 title: "Quantifying Intervention Effectiveness for Social Interactions in Children with ASD"
 collection: talks
-date: 2019-09-24
+date: 2015-09-24
 audience: international
 format: oral
 event: "Intervention for Social and Communication Skills in Children with Autism Spectrum Disorder"
