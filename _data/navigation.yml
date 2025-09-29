@@ -12,8 +12,8 @@ main:
     url: /about/
   - title: "自己紹介 (JA)"
     url: /ja/about/
-  - title: "Projects"
-    url: /projects/
+  #- title: "Projects"
+  #  url: /projects/
   - title: "Publications｜論文"
     url: /publications/
   - title: "Presentations｜プレゼンテーション"
