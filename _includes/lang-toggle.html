@@ -1,19 +1,21 @@
 {%- comment -%}
-  Language toggle for About pages: /about/ (en) ↔ /ja/about/ (ja)
-  Highlights the current language.
+  Language toggle for About pages (robust, baseurl-safe).
+  EN page: /about/  ⇄  JA page: /ja/about/
 {%- endcomment -%}
-{%- assign is_en = page.lang == 'en' -%}
-{%- assign is_ja = page.lang == 'ja' -%}
-{%- if is_en -%}
-  {%- assign alt = page.url | replace_first: '/about/', '/ja/about/' -%}
+{%- if page.lang == 'en' -%}
   <nav class="lang-toggle" aria-label="Language switcher">
     <a class="pill active" aria-current="true">EN</a>
-    <a class="pill" href="{{ alt | relative_url }}">JA</a>
+    <a class="pill" href="{{ '/ja/about/' | relative_url }}">JA</a>
   </nav>
-{%- elsif is_ja -%}
-  {%- assign alt = page.url | replace_first: '/ja/about/', '/about/' -%}
+{%- elsif page.lang == 'ja' -%}
   <nav class="lang-toggle" aria-label="Language switcher">
-    <a class="pill" href="{{ alt | relative_url }}">EN</a>
+    <a class="pill" href="{{ '/about/' | relative_url }}">EN</a>
     <a class="pill active" aria-current="true">JA</a>
+  </nav>
+{%- else -%}
+  {#– 予備：lang未設定時はリンクだけ表示 –#}
+  <nav class="lang-toggle" aria-label="Language switcher">
+    <a class="pill" href="{{ '/about/' | relative_url }}">EN</a>
+    <a class="pill" href="{{ '/ja/about/' | relative_url }}">JA</a>
   </nav>
 {%- endif -%}
