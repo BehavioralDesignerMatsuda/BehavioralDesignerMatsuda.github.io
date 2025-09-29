@@ -7,5 +7,5 @@ date_label: "Presented"
 ---
 <div class="entries-list">
 {% assign items = site.talks | where: "format", "outreach" | sort: "date" | reverse %}
-{% for post in items %}{% include archive-single.html %}{% endfor %}
+{% for post in items %}{% include archive-single-presentation.html %}{% endfor %}
 </div>
