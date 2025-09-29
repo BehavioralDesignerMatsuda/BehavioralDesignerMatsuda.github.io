@@ -6,7 +6,8 @@ lang: en
 redirect_from:
   - /about.html
 ---
-> [日本語 / JA](/ja/about/)
+{%- assign ja_url = page.url | replace_first: '/about/', '/ja/about/' -%}
+> [日本語 / JA]({{ ja_url | relative_url }})
 
 <!-- ここから本文（英語のAbout） -->
 Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and directs the Behavioral Design Lab. His work sits at the intersection of **HCI and behavioral science**, moving **from lab to field** to design multimodal systems that **measure, model, and improve human–human interaction** in real-world contexts.
