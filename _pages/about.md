@@ -1,12 +1,15 @@
 ---
-permalink: /
+permalink: /about/
 title: "Soichiro Matsuda / Behavioral Design Lab"
 author_profile: true
+lang: en
 redirect_from: 
   - /about/
   - /about.html
 ---
+> [日本語 / JA](/ja/about/)
 
+<!-- ここから本文（英語のAbout） -->
 Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and directs the Behavioral Design Lab. His work sits at the intersection of **HCI and behavioral science**, moving **from lab to field** to design multimodal systems that **measure, model, and improve human–human interaction** in real-world contexts.
 
 ---
