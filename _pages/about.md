@@ -108,12 +108,3 @@ BMC Psychology; BMC Digital Health; IEEE Robotics and Automation Letters; Intera
 - **ResearchGate:** <https://www.researchgate.net/profile/Soichiro-Matsuda>  
 - **TRIOS:** <https://trios.tsukuba.ac.jp/en/researcher/0000004129>
 
----
-
-<details>
-  <summary><strong>Implementation tips (optional)</strong></summary>
-
-- Because this page is the **home** (`permalink: /`), keep the top paragraph concise, and let the **About** content live below the fold.  
-- If you later prefer a dedicated About page, create `/about/` with the same body and remove the `redirect_from` entries above.  
-- Add a language toggle in the nav (e.g., **EN / 日本語**) and mirror this structure at `/ja/about/`.
-</details>
