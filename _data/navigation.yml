@@ -8,20 +8,17 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "About｜EN"
+  - title: "About"
     url: /about/
-  - title: "自己紹介 (JA)"
-    url: /ja/about/
-  #- title: "Projects"
-  #  url: /projects/
-  - title: "Publications｜論文"
+  - title: "Publications"
     url: /publications/
-  - title: "Presentations｜プレゼンテーション"
+  - title: "Presentations"
     url: /talks/
   - title: "Grants"
     url: /grants/
   - title: "CV"
     url: /cv/
+
 
     
 
