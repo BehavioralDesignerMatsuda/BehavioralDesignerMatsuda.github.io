@@ -3,9 +3,7 @@ permalink: /about/
 title: "Soichiro Matsuda / Behavioral Design Lab"
 author_profile: true
 lang: en
-redirect_from: 
-  - /about/
-  - /about.html
+
 ---
 > [日本語 / JA](/ja/about/)
 
