@@ -11,7 +11,53 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
+
+<!-- Language toggle styles -->
+<style>
+.lang-toggle {
+  display:inline-flex;
+  gap:.4rem;
+  align-items:center;
+  margin:.5rem 0 1rem;
+  font-size:0.95rem;
+}
+.lang-toggle .pill {
+  display:inline-block;
+  padding:.28rem .7rem;
+  border:1px solid var(--pill-border, #ccc);
+  border-radius:999px;
+  text-decoration:none;
+  line-height:1.2;
+  transition:background .15s ease, border-color .15s ease, transform .02s ease;
+}
+.lang-toggle .pill:hover { text-decoration:none; border-color:var(--pill-hover, #888); }
+.lang-toggle .active {
+  background:var(--pill-active-bg, #f0f0f0);
+  border-color:var(--pill-active-border, #bbb);
+  cursor:default;
+}
+.lang-toggle .pill:active { transform:translateY(1px); }
+
+/* theme-friendly colors */
+:root {
+  --pill-border:#d0d0d0;
+  --pill-hover:#9a9a9a;
+  --pill-active-bg:#f5f5f5;
+  --pill-active-border:#c4c4c4;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --pill-border:#555;
+    --pill-hover:#aaa;
+    --pill-active-bg:#2a2a2a;
+    --pill-active-border:#777;
+  }
+  .lang-toggle .pill { color:#eaeaea; }
+}
+</style>
 
 <!-- end custom head snippets -->
