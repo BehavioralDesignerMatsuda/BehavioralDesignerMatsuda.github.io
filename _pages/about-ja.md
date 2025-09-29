@@ -6,8 +6,8 @@ author_profile: true
 redirect_from:
   - /ja/about.html
 ---
-{%- assign en_url = page.url | replace_first: '/ja/about/', '/about/' -%}
-> [English / EN]({{ en_url | relative_url }})
+{% include lang-toggle.html %}
+
 
 <!-- ここから本文（日本語のAbout） -->
 松田壮一郎は、筑波大学人間系の助教で、行動デザイン研究室を主宰しています。  
