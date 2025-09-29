@@ -1,0 +1,19 @@
+{%- comment -%}
+  Language toggle for About pages: /about/ (en) ↔ /ja/about/ (ja)
+  Highlights the current language.
+{%- endcomment -%}
+{%- assign is_en = page.lang == 'en' -%}
+{%- assign is_ja = page.lang == 'ja' -%}
+{%- if is_en -%}
+  {%- assign alt = page.url | replace_first: '/about/', '/ja/about/' -%}
+  <nav class="lang-toggle" aria-label="Language switcher">
+    <a class="pill active" aria-current="true">EN</a>
+    <a class="pill" href="{{ alt | relative_url }}">JA</a>
+  </nav>
+{%- elsif is_ja -%}
+  {%- assign alt = page.url | replace_first: '/ja/about/', '/about/' -%}
+  <nav class="lang-toggle" aria-label="Language switcher">
+    <a class="pill" href="{{ alt | relative_url }}">EN</a>
+    <a class="pill active" aria-current="true">JA</a>
+  </nav>
+{%- endif -%}
