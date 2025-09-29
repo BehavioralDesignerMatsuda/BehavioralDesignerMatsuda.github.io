@@ -52,7 +52,7 @@
       <p class="archive__item-excerpt" itemprop="description">
         {% if entry.event %}<strong>Event:</strong> {{ entry.event }}{% endif %}
         {% if entry.location %}{% if entry.event %} &nbsp;•&nbsp; {% endif %}{{ entry.location }}{% endif %}
-        {% if entry.authors %}<br><em>{{ entry.authors }}</em>{% endif %}
+        {% if entry.authors %}<br>{{ entry.authors }}{% endif %}
       </p>
     {% endif %}
 
