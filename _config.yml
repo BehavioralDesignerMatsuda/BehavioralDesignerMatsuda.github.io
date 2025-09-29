@@ -296,6 +296,8 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      date_label: "Presented"
+      
 
 
 # Sass/SCSS
