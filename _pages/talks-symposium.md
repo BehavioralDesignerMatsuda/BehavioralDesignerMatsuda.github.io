@@ -3,6 +3,7 @@ title: "Talks｜Symposium"
 permalink: /talks/symposium/
 layout: single
 author_profile: true
+date_label: "Presented"
 ---
 <div class="entries-list">
 {% assign items = site.talks | where: "format", "symposium" | sort: "date" | reverse %}
