@@ -5,12 +5,6 @@ author_profile: true
 lang: en
 ---
 
-# Grants
-
-We organize funding into **Current** and **Completed** awards. Each item shows scheme, role, period (fiscal-year aligned), and PI. Japanese titles are included beneath the English titles for clarity.
-
----
-
 ## Current Funding
 
 <details>
