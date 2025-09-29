@@ -8,14 +8,20 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "default"
 title                    : "Soichiro Matsuda / Behavioral Design Lab"
 title_separator          : "-"
 name                     : &name "Soichiro Matsuda"
-description              : &description "Bridging Behavior Analysis and HCI"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Bridging Behavior Analysis and HCI"
 url                      : "https://behavioraldesignermatsuda.github.io"
-baseurl                  : "" 
+baseurl                  : ""
 repository               : "BehavioralDesignerMatsuda/BehavioralDesignerMatsuda.github.io"
+
+# Add: header aux links (right-top)
+aux_links:
+  日本語:
+    - "/ja/about/"
+aux_links_new_tab: false
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
