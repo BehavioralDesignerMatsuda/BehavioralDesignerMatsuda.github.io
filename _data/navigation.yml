@@ -8,8 +8,10 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "About｜自己紹介"
-    url: /
+  - title: "About｜EN"
+    url: /about/
+  - title: "自己紹介 (JA)"
+    url: /ja/about/
   - title: "Projects｜研究プロジェクト"
     url: /projects/
   - title: "Publications｜論文"
