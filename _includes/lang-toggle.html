@@ -1,19 +1,27 @@
 {%- comment -%}
-  Language toggle for About pages (robust, baseurl-safe).
-  EN page: /about/  ⇄  JA page: /ja/about/
+  Generic language toggle:
+  EN page: /path/        <-> JA page: /ja/path/
+  Works for any page pair that follows this URL convention.
 {%- endcomment -%}
+
+{%- assign path = page.url -%}
+
 {%- if page.lang == 'en' -%}
+  {%- assign alt = '/ja' | append: path -%}
   <nav class="lang-toggle" aria-label="Language switcher">
     <a class="pill active" aria-current="true">EN</a>
-    <a class="pill" href="{{ '/ja/about/' | relative_url }}">JA</a>
+    <a class="pill" href="{{ alt | relative_url }}">JA</a>
   </nav>
+
 {%- elsif page.lang == 'ja' -%}
+  {%- assign alt = path | replace_first: '/ja', '' -%}
   <nav class="lang-toggle" aria-label="Language switcher">
-    <a class="pill" href="{{ '/about/' | relative_url }}">EN</a>
+    <a class="pill" href="{{ alt | relative_url }}">EN</a>
     <a class="pill active" aria-current="true">JA</a>
   </nav>
+
 {%- else -%}
-  {#– 予備：lang未設定時はリンクだけ表示 –#}
+  {#– Fallback when page.lang is not set –#}
   <nav class="lang-toggle" aria-label="Language switcher">
     <a class="pill" href="{{ '/about/' | relative_url }}">EN</a>
     <a class="pill" href="{{ '/ja/about/' | relative_url }}">JA</a>
