@@ -13,10 +13,8 @@ lang: en
 ## Paper / Contribution Awards (selected, newest first)
 
 - **ACM UIST Best Paper Award** — *Jul 2020*  
-  **Paper:** [HandMorph: A Passive Exoskeleton that Miniaturizes Grasp
-]({{ "/publications/2020-UIST/" | relative_url }}) (ACM UIST 2020)  
-  **Authors:** [add authors] • **Role:** [e.g., Co-author/PI]
-
+  **Paper:** [_HandMorph: A Passive Exoskeleton that Miniaturizes Grasp_]({{ "/publications/2020-UIST/" | relative_url }}) (ACM UIST 2020)  
+  **Authors:** Nishida, J., Matsuda, S., Matsui, H., Teng, S. Y., Liu, Z., Suzuki, K., & Lopes, P. • **Role:** Co-author
 
 - **ACM CHI Honorable Mention Award** — *May 2019*  
   **Paper:** _[TITLE — add link]_ (ACM CHI 2019)  
