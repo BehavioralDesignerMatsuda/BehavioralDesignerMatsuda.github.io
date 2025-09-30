@@ -6,45 +6,35 @@ lang: en
 ---
 {% include lang-toggle.html %}
 
-# Awards & Honors
-
-> Paper-related awards explicitly list the **paper title** and a **link** (to your Publications page entry or DOI). Add author list and your role if helpful.
-
-## Paper / Contribution Awards (selected, newest first)
+## Paper / Contribution Awards 
 
 - **ACM UIST Best Paper Award** — *Jul 2020*  
   **Paper:** [_HandMorph: A Passive Exoskeleton that Miniaturizes Grasp_]({{ "/publications/2020-UIST/" | relative_url }}) (ACM UIST 2020)  
   **Authors:** Nishida, J., Matsuda, S., Matsui, H., Teng, S. Y., Liu, Z., Suzuki, K., & Lopes, P. • **Role:** Co-author
 
 - **ACM CHI Honorable Mention Award** — *May 2019*  
-  **Paper:** _[TITLE — add link]_ (ACM CHI 2019)  
-  **Authors:** [add authors] • **Role:** [e.g., Co-author/PI]
+  **Paper:** [_Egocentric Smaller-Person Experience through a Change in Visual Perspective_]({{ "/publications/2019-CHI/" | relative_url }})(ACM CHI 2019)  
+  **Authors:** Nishida, J., Matsuda, S., Oki, M., Takatori, H., Sato, K., & Suzuki, K. • **Role:** Co-author
 
-- **VR Society of Japan Paper Award (第25回VR学会論文賞)** — *Sep 2023*  
-  **Paper:** _[タイトル — リンク]_ (VR学会)  
-  **Authors:** [add authors] • **Role:** [e.g., Co-author/PI]
+- **The Virtual Reality Society of Japan Paper Award** — *Sep 2023*  
+  **Paper:** [_Evaluation of Haptic Sensations Induced by Changes in Facial Expressions of an Agent_]({{ "/publications/2022-hapticVR/" | relative_url }}) (VRSJ)  
+  **Authors:** Matsuyama, N., Matsuda, S., & Hachisu, T. • **Role:** Co-author
+  
+- **The Japanese Association for Behavior Analysis Paper Award** — *Mar 2021*  
+  **Paper:** [_Increasing Positive Social Behavior During Play With a Child With PDD-NOS Using a Naturalistic Training Package That Includes Humorous Acts: A Case Study_] ({{ "/publications/2019-humor-intervention/" | relative_url }})(J-ABA)
+  **Authors:** Matsuda, S. & Yamamoto, J. • **Role:** First & Corresponding author
+  
+- **The Virtual Reality Society of Japan Paper Award** — *Sep 2019*  
+  **Paper:** [_Perceptual and Kinetic Characteristics by Egocentric Child Experience_]({{ "/publications/2018-childhood-japanese/" | relative_url }})(VRSJ)  
+  **Authors:** Nishida, J., Matsuda, S., Oki, M., Takatori, H., Sato, K., & Suzuki, K. • **Role:** Co-author
 
-- **VR Society of Japan Paper Award (第21回VR学会論文賞)** — *Sep 2019*  
-  **Paper:** _[タイトル — リンク]_ (VR学会)  
-  **Authors:** [add authors] • **Role:** [e.g., Co-author/PI]
+- **IEICE Paper Award** — *Jun 2019*  
+  **Paper:** [_A Head-Mounted Device for Measuring Facing Behavior among Individuals_]({{ "/publications/2018-FaceLooks-japanese/" | relative_url }}) (IEICE)  
+  **Authors:** Hachisu, T., Pan, Y., Matsuda, S., Bourreau, B., & Suzuki, K.  • **Role:** Co-author
 
-- **IEICE Paper Award (第75回電子情報通信学会 論文賞)** — *Jun 2019*  
-  **Paper:** _[タイトル — リンク]_ (IEICE)  
-  **Authors:** [add authors] • **Role:** [e.g., Co-author/PI]
-
-- **Japanese Association for Behavior Analysis Paper Award (第8回日本行動分析学会論文賞)** — *Mar 2021*  
-  **Paper:** _[タイトル — リンク]_ (J-ABA)  
-  **Authors:** [add authors] • **Role:** [e.g., Co-author/PI]
-
-- **HCG Symposium 2022 Thematic Session Award (Social Interaction)** — *Dec 2022*  
-  **Paper/Session:** _[タイトル — リンク]_ (HCG 2022)  
-  **Authors/Organizers:** [add names] • **Role:** [e.g., Co-author/Session organizer]
 
 ## Fellowships / Programs
 
-- **TRiSTAR Fellow (第3期育成者)** — *Jul 2023 – Aug 2025*  
+- **TRiSTAR Fellow** — *Jul 2023 – Aug 2025*  
   Strategic Professional Development Program for Young Researchers, University of Tsukuba
 
-## Notes
-- Prefer the **original venue spelling** (ACM CHI / UIST, IEICE, VRSJ, J-ABA).  
-- Link to your own entry on **/publications/** when possible (stable), otherwise DOI/arXiv/publisher.
