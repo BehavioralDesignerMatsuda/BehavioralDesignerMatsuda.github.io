@@ -16,20 +16,20 @@ lang: ja
   **著者：** Nishida, J., **Matsuda, S.**, Oki, M., Takatori, H., Sato, K., & Suzuki, K. ／ **役割：** 共著
 
 - **日本バーチャルリアリティ学会 論文賞（第25回）** — *2023年9月*  
-  **論文：** *[Evaluation of Haptic Sensations Induced by Changes in Facial Expressions of an Agent]({{ "/publications/2022-hapticVR/" | relative_url }})*（VRSJ）  
-  **著者：** Matsuyama, N., **Matsuda, S.**, & Hachisu, T. ／ **役割：** 共著
+  **論文：** *[エージェントの表情変化により生起する力覚の評価]({{ "/publications/2022-hapticVR/" | relative_url }})*（VRSJ）  
+  **著者：** 松山 菜々・松田 壮一郎・蜂須 拓 ／ **役割：** 共著
 
 - **日本行動分析学会 論文賞（第8回）** — *2021年3月*  
-  **論文：** *[Increasing Positive Social Behavior During Play With a Child With PDD-NOS Using a Naturalistic Training Package That Includes Humorous Acts: A Case Study]({{ "/publications/2019-humor-intervention/" | relative_url }})*（J-ABA）  
-  **著者：** **Matsuda, S.** & Yamamoto, J. ／ **役割：** 筆頭・責任著者
+  **論文：** *[遊び場面における広汎性発達障害幼児のポジティブな社会的行動に対するユーモアを含んだ介入パッケージの効果]({{ "/publications/2019-humor-intervention/" | relative_url }})*（J-ABA）  
+  **著者：** 松田 壮一郎・山本 淳一 ／ **役割：** 筆頭・責任著者
 
 - **日本バーチャルリアリティ学会 論文賞（第21回）** — *2019年9月*  
-  **論文：** *[Perceptual and Kinetic Characteristics by Egocentric Child Experience]({{ "/publications/2018-childhood-japanese/" | relative_url }})*（VRSJ）  
-  **著者：** Nishida, J., **Matsuda, S.**, Oki, M., Takatori, H., Sato, K., & Suzuki, K. ／ **役割：** 共著
+  **論文：** *[身体性変換スーツによる小児体験における知覚・運動特性の評価]({{ "/publications/2018-childhood-japanese/" | relative_url }})*（VRSJ）  
+  **著者：** 西田 惇・松田 壮一郎・大木 美加・高鳥 光・佐藤 綱祐・鈴木 健嗣 ／ **役割：** 共著
 
 - **電子情報通信学会 論文賞（第75回）** — *2019年6月*  
-  **論文：** *[A Head-Mounted Device for Measuring Facing Behavior among Individuals]({{ "/publications/2018-FaceLooks-japanese/" | relative_url }})*（IEICE）  
-  **著者：** **Matsuda, S.**, Hachisu, T., Pan, Y., Bourreau, B., & Suzuki, K. ／ **役割：** 共著
+  **論文：** *[複数人による双方向の対面行動を計量する頭部装着型デバイス]({{ "/publications/2018-FaceLooks-japanese/" | relative_url }})*（IEICE）  
+  **著者：** 蜂須 拓・潘 雅冬・松田 壮一郎・バティスト ブロー・鈴木 健嗣 ／ **役割：** 共著
 
 ---
 
