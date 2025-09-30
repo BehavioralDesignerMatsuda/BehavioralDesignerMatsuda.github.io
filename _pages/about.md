@@ -31,7 +31,6 @@ Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and PI o
 ## Research Focus
 I keep a living, HCI-oriented overview of my lab’s work here:  
 👉 **[Research Focus / Projects]({{ "/research/" | relative_url }})**
----
 
 ## Current appointments
 
