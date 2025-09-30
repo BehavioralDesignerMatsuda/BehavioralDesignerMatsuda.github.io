@@ -23,7 +23,7 @@ Principal Investigator, **Behavioral Design Laboratory**
 
 **One-liner.** I design and evaluate **interactive systems for human–human interaction**, combining **Applied Behavior Analysis (ABA)** with **HCI** through **sensing-driven assessment** and **technology-enhanced interventions**.
 
-**Short bio**  
+**Short bio.**  
 Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and PI of the Behavioral Design Lab. His work sits at the intersection of **HCI and behavioral science**, creating and studying systems that quantify social behavior and deliver **adaptive feedback** in real-world settings. He focuses on early intervention for autism spectrum disorder (ASD), parent-mediated training, and the **design of human–human interaction** using wearables, XR, socially assistive robots, and low-burden sensing. Methodologically, he blends **single-case designs** with user-centered HCI methods and open, reproducible workflows.
 
 ---
