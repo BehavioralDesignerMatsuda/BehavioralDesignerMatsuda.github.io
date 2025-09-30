@@ -21,7 +21,7 @@ lang: en
   **Authors:** Matsuyama, N., Matsuda, S., & Hachisu, T. • **Role:** Co-author
   
 - **The Japanese Association for Behavior Analysis Paper Award** — *Mar 2021*  
-  **Paper:** [_Increasing Positive Social Behavior During Play With a Child With PDD-NOS Using a Naturalistic Training Package That Includes Humorous Acts: A Case Study_] ({{ "/publications/2019-humor-intervention/" | relative_url }})(J-ABA)
+  **Paper:** [_Increasing Positive Social Behavior During Play With a Child With PDD-NOS Using a Naturalistic Training Package That Includes Humorous Acts: A Case Study_]({{ "/publications/2019-humor-intervention/" | relative_url }}) (J-ABA)  
   **Authors:** Matsuda, S. & Yamamoto, J. • **Role:** First & Corresponding author
   
 - **The Virtual Reality Society of Japan Paper Award** — *Sep 2019*  
