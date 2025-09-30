@@ -1,6 +1,6 @@
 ---
 permalink: /ja/research/
-title: "研究の焦点（Research Focus）"
+title: "研究（Research）"
 author_profile: true
 lang: ja
 redirect_from:
