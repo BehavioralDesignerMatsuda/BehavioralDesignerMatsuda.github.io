@@ -12,8 +12,35 @@
   {% assign title = post.title %}
 {% endif %}
 
+{%- comment -%}
+  Publications ページ用に kind（journals/domestic/conferences）を判定。
+  それ以外のページには一切影響なし。
+{%- endcomment -%}
+{%- assign kind = nil -%}
+{%- if page.collection == 'publications' or post.collection == 'publications' -%}
+  {%- if post.categories -%}
+    {%- assign cats_joined = post.categories | join: ' ' | downcase -%}
+  {%- elsif post.category -%}
+    {%- assign cats_joined = post.category | downcase -%}
+  {%- else -%}
+    {%- assign cats_joined = '' -%}
+  {%- endif -%}
+  {%- assign kind = 'other' -%}
+  {%- if cats_joined contains 'journal' -%}
+    {%- assign kind = 'journals' -%}
+  {%- elsif cats_joined contains 'domestic' or cats_joined contains 'japanese' -%}
+    {%- assign kind = 'domestic' -%}
+  {%- elsif cats_joined contains 'conference' -%}
+    {%- assign kind = 'conferences' -%}
+  {%- endif -%}
+{%- endif -%}
+
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article
+    class="archive__item{% if page.collection == 'publications' or post.collection == 'publications' %} pub-item{% endif %}"
+    {% if page.collection == 'publications' or post.collection == 'publications' %}data-kind="{{ kind }}"{% endif %}
+    itemscope itemtype="http://schema.org/CreativeWork">
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -41,7 +68,8 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
+          {% if kind and kind != 'other' %}· {{ kind | capitalize }}{% endif %}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
