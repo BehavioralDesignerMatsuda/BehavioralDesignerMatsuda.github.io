@@ -82,8 +82,8 @@ author_profile: true
       {% assign my_ja = "松田 壮一郎" %}
       {% assign my_ja_nospace = "松田壮一郎" %}
       {% assign authors_line = authors_line
-        | replace: my_en, "<strong>Soichiro Matsuda</strong>"
-        | replace: my_en_rev, "<strong>Matsuda Soichiro</strong>"
+        | replace: my_en, "<strong>S Matsuda</strong>"
+        | replace: my_en_rev, "<strong>Matsuda, S.</strong>"
         | replace: my_ja, "<strong>松田 壮一郎</strong>"
         | replace: my_ja_nospace, "<strong>松田壮一郎</strong>" %}
       <p class="archive__item-authors">{{ authors_line }}</p>
