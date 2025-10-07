@@ -65,6 +65,30 @@ author_profile: true
       <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
     </h3>
 
+    {%- comment -%} 著者表示（authors / author / citation）+ 自分の名前を太字 {%- endcomment -%}
+    {% assign authors_line = nil %}
+    {% if item.authors %}
+      {% assign authors_line = item.authors | join: ", " %}
+    {% elsif item.author %}
+      {% assign authors_line = item.author %}
+    {% elsif item.citation %}
+      {%- assign authors_line = item.citation | split: '(' | first | strip -%}
+    {% endif %}
+
+    {%- comment -%} ご本人名（英/日/表記揺れ）を太字に置換 {%- endcomment -%}
+    {% if authors_line %}
+      {% assign my_en = "Soichiro Matsuda" %}
+      {% assign my_en_rev = "Matsuda Soichiro" %}
+      {% assign my_ja = "松田 壮一郎" %}
+      {% assign my_ja_nospace = "松田壮一郎" %}
+      {% assign authors_line = authors_line
+        | replace: my_en, "<strong>Soichiro Matsuda</strong>"
+        | replace: my_en_rev, "<strong>Matsuda Soichiro</strong>"
+        | replace: my_ja, "<strong>松田 壮一郎</strong>"
+        | replace: my_ja_nospace, "<strong>松田壮一郎</strong>" %}
+      <p class="archive__item-authors">{{ authors_line }}</p>
+    {% endif %}
+
     {% assign year = item.date | date: "%Y" %}
     <div class="archive__item-meta">
       <span>{{ year }}</span>
