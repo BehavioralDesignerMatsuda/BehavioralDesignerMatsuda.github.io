@@ -104,9 +104,16 @@ author_profile: true
     {% assign year = item.date | date: "%Y" %}
     <div class="archive__item-meta">
       <span>{{ year }}</span>
-      {% if item.venue %}<span> · {{ item.venue }}</span>{% endif %}
+      {% if item.venue %}
+        {% if kind == 'journals' or kind == 'domestic' %}
+          <span> · <em>{{ item.venue }}</em></span>
+        {% else %}
+          <span> · {{ item.venue }}</span>
+        {% endif %}
+      {% endif %}
       {% if kind != 'other' %}<span> · {{ kind | capitalize }}</span>{% endif %}
     </div>
+
 
     {% if item.excerpt or item.description %}
       <p class="archive__item-excerpt" itemprop="description">
