@@ -75,19 +75,31 @@ author_profile: true
       {%- assign authors_line = item.citation | split: '(' | first | strip -%}
     {% endif %}
 
-    {%- comment -%} ご本人名（英/日/表記揺れ）を太字に置換 {%- endcomment -%}
-    {% if authors_line %}
-      {% assign my_en = "Soichiro Matsuda" %}
-      {% assign my_en_rev = "Matsuda Soichiro" %}
-      {% assign my_ja = "松田 壮一郎" %}
-      {% assign my_ja_nospace = "松田壮一郎" %}
-      {% assign authors_line = authors_line
-        | replace: my_en, "<strong>S Matsuda</strong>"
-        | replace: my_en_rev, "<strong>Matsuda, S.</strong>"
-        | replace: my_ja, "<strong>松田 壮一郎</strong>"
-        | replace: my_ja_nospace, "<strong>松田壮一郎</strong>" %}
-      <p class="archive__item-authors">{{ authors_line }}</p>
-    {% endif %}
+   {%- comment -%} ご本人名（英/日/表記揺れ）を太字に置換 {%- endcomment -%}
+{% if authors_line %}
+  {% assign my_en = "Soichiro Matsuda" %}
+  {% assign my_en_rev = "Matsuda Soichiro" %}
+  {% assign my_en_rev_comma = "Matsuda, Soichiro" %}
+  {% assign my_en_initial = "Matsuda, S." %}
+  {% assign my_en_initial_nodot = "Matsuda, S" %}
+  {% assign my_en_initial_rev = "S. Matsuda" %}
+  {% assign my_en_initial_rev_nodot = "S Matsuda" %}
+  {% assign my_ja = "松田 壮一郎" %}
+  {% assign my_ja_nospace = "松田壮一郎" %}
+
+  {% assign authors_line = authors_line
+    | replace: my_en, "<strong>Soichiro Matsuda</strong>"
+    | replace: my_en_rev, "<strong>Matsuda Soichiro</strong>"
+    | replace: my_en_rev_comma, "<strong>Matsuda, Soichiro</strong>"
+    | replace: my_en_initial, "<strong>Matsuda, S.</strong>"
+    | replace: my_en_initial_nodot, "<strong>Matsuda, S</strong>"
+    | replace: my_en_initial_rev, "<strong>S. Matsuda</strong>"
+    | replace: my_en_initial_rev_nodot, "<strong>S Matsuda</strong>"
+    | replace: my_ja, "<strong>松田 壮一郎</strong>"
+    | replace: my_ja_nospace, "<strong>松田壮一郎</strong>" %}
+  <p class="archive__item-authors">{{ authors_line }}</p>
+{% endif %}
+
 
     {% assign year = item.date | date: "%Y" %}
     <div class="archive__item-meta">
