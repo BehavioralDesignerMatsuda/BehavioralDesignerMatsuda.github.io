@@ -7,5 +7,5 @@ format: symposium
 Authors: "松田 壮一郎"
 event: "第66回日本児童青年精神医学会総会"
 location: "福岡"
-excerpt: "企画：片桐正敏（株式会社MillReef), 話題提供者としての登壇."
+excerpt: "企画：片桐正敏（北海道教育大学), 話題提供者としての登壇."
 ---
