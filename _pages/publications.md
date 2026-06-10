@@ -60,7 +60,7 @@ author_profile: true
     {% assign kind = 'conferences' %}
   {% endif %}
 
-  ```liquid
+
   <article class="archive__item pub-item" data-kind="{{ kind }}" itemscope itemtype="http://schema.org/CreativeWork">
     <h3 class="archive__item-title" itemprop="headline">
       <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
@@ -86,7 +86,6 @@ author_profile: true
       </p>
     {% endif %}
   </article>
-```
 
 
 {% endfor %}
