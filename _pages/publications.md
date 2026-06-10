@@ -81,7 +81,8 @@ author_profile: true
     {% if item.tags %}
       <p class="archive__item-tags">
         {% for tag in item.tags %}
-          <span class="pub-tag">{{ tag }}</span>
+          {% assign tag_class = tag | downcase | replace: ' ', '-' %}
+          <span class="pub-tag pub-tag--{{ tag_class }}">{{ tag }}</span>
         {% endfor %}
       </p>
     {% endif %}
