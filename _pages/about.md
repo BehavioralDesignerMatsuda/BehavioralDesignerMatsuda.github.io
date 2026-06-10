@@ -30,6 +30,7 @@ Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and PI o
 Methodologically, he combines single-case experimental designs, psychological experiments, user-centered HCI methods, and open, reproducible workflows. He also develops and evaluates systems using wearables, computer vision, XR, socially assistive robots, and low-burden sensing technologies.
 
 **Three entry points**
+
 For **autism researchers**, my work contributes to **technology-enhanced behavioral support**.
 
 For **behavior analysts**, my work examines **verbal behavior**, **social interaction**, and **behavior change**.
