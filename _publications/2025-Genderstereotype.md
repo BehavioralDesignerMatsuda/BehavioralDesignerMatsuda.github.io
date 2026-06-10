@@ -9,7 +9,7 @@ paperurl: "https://link.springer.com/article/10.1007/s42822-025-00229-1"
 doi: "https://doi.org/10.1007/s42822-025-00229-1"
 
 citation: >-
-  Yamaguchi, M., Iwamoto, J., & Matsuda, S. (2025). Measuring gender stereotypes among Japanese university students using the Implicit Relational Assessment Procedure (IRAP): A systematic replication. Behavior and Social Issues, 34, 452–475. https://doi.org/10.1007/s42822-025-00229-1
+  Yamaguchi, M., Iwamoto, J., & Matsuda, S. (2025). Measuring gender stereotypes among Japanese university students using the Implicit Relational Assessment Procedure (IRAP): A systematic replication. *Behavior and Social Issues*, 34, 452–475. https://doi.org/10.1007/s42822-025-00229-1
 
 tags:
   - Measuring
