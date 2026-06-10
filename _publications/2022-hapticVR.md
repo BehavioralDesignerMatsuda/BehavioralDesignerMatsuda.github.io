@@ -1,6 +1,4 @@
 ---
-
-
 title: "エージェントの表情変化により生起する力覚の評価"
 collection: publications
 date: 2022-12-28
@@ -22,6 +20,7 @@ tags:
 * Pseudo-haptic Feedback
 
 ## excerpt: ""
+
 ---
 ## Summary
 
