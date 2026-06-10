@@ -11,10 +11,24 @@ redirect_from:
 
 # Research Focus
 
-**Mission.** Established in 2020 at the University of Tsukuba, the Behavioral Design Laboratory studies **human interaction** and designs futures where **diversity is not treated as disability**. Grounded in **Applied Behavior Analysis (ABA)**, we use **single-case experimental designs** and **psychological experiments** to systematically analyze behavior. To **describe, predict, and influence** social interaction, we work across disciplines and institutions, integrating **computer vision, wearable devices, socially assistive robots, motion capture, and smart clothing**. Through interdisciplinary collaboration and real-world implementations, we aim to create **inclusive environments** and **bridge behavioral science and society** by turning evidence into practical solutions.
+The Behavioral Design Laboratory studies and designs **human–human interaction** in real-world settings.
+We combine **applied behavior analysis**, **single-case experimental designs**, **psychological experiments**, and **interactive technologies** to observe, measure, and redesign social interaction.
 
-### 1) Designing Behavior in Autism Support (InfoTech × PsychTech)
-We measure and modify behavior in children with autism spectrum disorder (ASD), especially when social interaction is challenging—developing and evaluating **technology-enhanced behavior support systems** that combine information science and psychology.
+Our work can be read through three connected research areas:
+
+-**Autism support**: technology-enhanced behavioral support for children, families, and practitioners
+
+-**Social interaction**: behavioral design of conversation, interviews, feedback, and communication
+
+-**Verbal behavior**: language, learning, stimulus relations, and everyday social behavior
+
+Across these areas, we aim to develop practical methods and systems that make human interaction more observable, teachable, and redesignable.
+
+### 1) Human Interaction in Autism Support
+
+We design and evaluate **technology-enhanced behavioral support** for children with autism spectrum disorder (ASD), their families, and practitioners.
+
+This line of work combines behavioral observation, single-case experimental designs, and interactive technologies such as wearables, computer vision, socially assistive robots, motion capture, and smart clothing.
 
 **Selected lines of work**
 - Mechanisms of **contingent imitation** via acoustic analysis  
@@ -28,8 +42,11 @@ We measure and modify behavior in children with autism spectrum disorder (ASD), 
 - Monitoring **sleep HRV** with smart clothing  
 - Modeling **therapist–child interpersonal distance** via motion capture
 
-### 2) Designing Behavior in Dyadic Spoken Interaction
-We identify determinants of **interaction quality** in real-world dyadic conversations and design more effective, adaptive patterns of interpersonal communication.
+### 2) Human Interaction in Conversation and Communication
+
+We study and design behavioral systems for **dyadic interaction**, including conversation, feedback, interviews, video calls, and social communication.
+
+This line of work focuses on how interaction patterns can be observed, trained, and redesigned in real-world social settings.
 
 **Selected lines of work**
 - Effects of **supervisor training** on 1-on-1 meetings in organizations  
@@ -39,8 +56,11 @@ We identify determinants of **interaction quality** in real-world dyadic convers
 - Effects of **face visibility in video calls** on task engagement  
 - Discriminative function of others’ **approach/avoidance** as a consequence of **visual fixation**
 
-### 3) Designing Verbal Behavior: Integrating Theory, Learning, and Everyday Use
-Building on **Skinner’s Verbal Behavior**, we study how language acquires and generalizes **new stimulus functions**, from efficient learning procedures to long-term, everyday language use.
+### 3) Human Interaction Through Verbal Behavior
+
+We study **verbal behavior**, language learning, and derived stimulus relations as behavioral processes that shape human interaction.
+
+Building on behavior-analytic approaches to language and learning, this line of work examines how language acquires new functions, generalizes across contexts, and participates in everyday social behavior.
 
 **Selected lines of work**
 - Comparing learning conditions for **untrained stimulus relations** in foreign-vocabulary acquisition  
@@ -50,4 +70,18 @@ Building on **Skinner’s Verbal Behavior**, we study how language acquires and 
 - Exploring **gender stereotypes** with the **Implicit Relational Assessment Procedure (IRAP)**  
 - Developing the Japanese version of the **Evasive Attitudes of Sexual Orientation Scale**
 
-**At a glance:** ABA · single-case designs · psychological experiments · computer vision · wearables & smart clothing · socially assistive robots · motion capture · remote/parent-mediated support · inclusive design · in-the-wild studies
+### Methods and Tools
+
+Across projects, we use:
+
+- Applied behavior analysis
+- Single-case experimental designs
+- Psychological experiments
+- Experience sampling methods
+- Behavioral skills training
+- Computer vision
+- Wearable devices and smart clothing
+- Socially assistive robots
+- Motion capture
+- Remote and parent-mediated support systems
+- Open and reproducible research workflows
