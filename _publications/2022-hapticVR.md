@@ -21,7 +21,6 @@ tags:
 
 ## excerpt: ""
 
----
 ## Summary
 
 This study evaluated force perception induced by changes in an agent’s facial expression. The study examined how social visual stimuli, such as facial expressions, may influence haptic or pseudo-haptic perception.
@@ -41,5 +40,6 @@ The study contributes to the Measuring and HCI lines by experimentally arranging
 ## Recommended citation
 
 松山 菜々・松田 壮一郎・蜂須 拓（2022）．エージェントの表情変化により生起する力覚の評価．*日本バーチャルリアリティ学会論文誌，27*(4)，283–290．https://doi.org/10.18974/tvrsj.27.4_283
+
 
 ---
