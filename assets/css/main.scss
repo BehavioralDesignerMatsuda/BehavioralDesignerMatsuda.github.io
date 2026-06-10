@@ -41,3 +41,50 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Publications tags */
+
+.archive__item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+  margin-bottom: 0.9rem;
+}
+
+.pub-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid rgba(40, 80, 90, 0.22);
+  border-radius: 999px;
+  background: rgba(40, 120, 130, 0.07);
+  color: #28545c;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.pub-tag:hover {
+  background: rgba(40, 120, 130, 0.12);
+  border-color: rgba(40, 80, 90, 0.36);
+}
+
+.pub-tag--measuring {
+  background: rgba(30, 120, 150, 0.10);
+  border-color: rgba(30, 120, 150, 0.30);
+  color: #1e6375;
+}
+
+.pub-tag--supporting {
+  background: rgba(70, 130, 100, 0.10);
+  border-color: rgba(70, 130, 100, 0.30);
+  color: #356f54;
+}
+
+.pub-tag--training {
+  background: rgba(95, 85, 160, 0.10);
+  border-color: rgba(95, 85, 160, 0.30);
+  color: #514b8f;
+}
