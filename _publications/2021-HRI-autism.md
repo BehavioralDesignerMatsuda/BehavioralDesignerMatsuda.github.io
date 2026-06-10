@@ -9,7 +9,7 @@ category: journals
 paperurl: 'https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.599755/full'
 doi: 'https://doi.org/10.3389/frobt.2021.599755'
 
-citation: 'Kim, S., Hirokawa, M., Matsuda, S., Funahashi, A., & Suzuki, K. (2021). Smiles as a signal of prosocial behaviors toward the robot in the therapeutic setting for children with autism spectrum disorder. Frontiers in Robotics and AI, 8, 599755. https://doi.org/10.3389/frobt.2021.599755'
+citation: 'Kim, S., Hirokawa, M., Matsuda, S., Funahashi, A., & Suzuki, K. (2021). Smiles as a signal of prosocial behaviors toward the robot in the therapeutic setting for children with autism spectrum disorder. *Frontiers in Robotics and AI*, 8, 599755. https://doi.org/10.3389/frobt.2021.599755'
 
 tags:
 
