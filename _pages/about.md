@@ -11,7 +11,7 @@ redirect_from:
 
 
 <!-- ここから本文（英語のAbout） -->
-Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and directs the Behavioral Design Lab. His work sits at the intersection of **HCI and behavioral science**, moving **from lab to field** to design multimodal systems that **measure, model, and improve human–human interaction** in real-world contexts.
+Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and directs the Behavioral Design Lab. He studies and designs **human–human interaction** by combining **behavioral science, single-case experimental designs, and interactive technologies**.
 
 ---
 
@@ -21,10 +21,28 @@ Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and dire
 Assistant Professor (Tenure), Institute of Human Sciences, University of Tsukuba  
 Principal Investigator, **Behavioral Design Laboratory**
 
-**One-liner.** I design and evaluate **interactive systems for human–human interaction**, combining **Applied Behavior Analysis (ABA)** with **HCI** through **sensing-driven assessment** and **technology-enhanced interventions**.
+**One-liner.** I design and evaluate **behavioral and technological systems for human–human interaction**.
+
+**Research identity.** My work connects **applied behavior analysis**, **autism support**, and **HCI** through sensing-driven assessment, technology-enhanced intervention, and real-world behavioral design. Across these areas, I focus on how human interaction can be observed, measured, and redesigned in everyday contexts.
 
 **Short bio.**  
-Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and PI of the Behavioral Design Lab. His work sits at the intersection of **HCI and behavioral science**, creating and studying systems that quantify social behavior and deliver **adaptive feedback** in real-world settings. He focuses on early intervention for autism spectrum disorder (ASD), parent-mediated training, and the **design of human–human interaction** using wearables, XR, socially assistive robots, and low-burden sensing. Methodologically, he blends **single-case designs** with user-centered HCI methods and open, reproducible workflows.
+Soichiro Matsuda is an Assistant Professor at the University of Tsukuba and PI of the Behavioral Design Lab. His research examines how human–human interaction can be supported through behavioral science and interactive technologies. His work includes early intervention and support for autism spectrum disorder (ASD), parent-mediated training, verbal behavior, social interaction, interview and communication skills, and supporter-support AI.
+Methodologically, he combines single-case experimental designs, psychological experiments, user-centered HCI methods, and open, reproducible workflows. He also develops and evaluates systems using wearables, computer vision, XR, socially assistive robots, and low-burden sensing technologies.
+
+**Three entry points**
+For **autism researchers**, my work contributes to **technology-enhanced behavioral support**.
+
+For **behavior analysts**, my work examines **verbal behavior**, **social interaction**, and **behavior change**.
+
+For **HCI researchers**, my work designs and evaluates systems for **human–human interaction** in real-world settings.
+
+**Current directions**
+- Human–human interaction design
+- Technology-enhanced autism support
+- Verbal behavior and social interaction
+- Sensing-driven assessment in real-world settings
+- Supporter-support AI and behavioral design tools
+- Single-case experimental designs and reproducible behavioral research
 
 ---
 
@@ -59,7 +77,7 @@ I keep a living, HCI-oriented overview of my lab’s work here:
 
 ## Service — Editorial/Peer review (selected, recent)
 
-BMC Psychology; BMC Digital Health; IEEE Robotics and Automation Letters; Interacting with Computers; RO-MAN; Frontiers in Psychiatry/Psychology; Journal of Special Education Research; Japanese Psychological Research; International Journal of Disability, Development and Education; Autism Research; Journal of Child Psychology and Psychiatry; Visual Cognition; Cognition and Emotion; New Ideas in Psychology; Journal of Autism and Developmental Disorders; Research in Autism Spectrum Disorders; Research in Developmental Disabilities; International Journal of Social Robotics.
+npj Digital Medicine; JMIR Aging; BMC Psychiatry/Psychology/Digital Health; IEEE Robotics and Automation Letters; Interacting with Computers; RO-MAN; Frontiers in Psychiatry/Psychology; Journal of Special Education Research; Japanese Psychological Research; International Journal of Disability, Development and Education; Autism Research; Journal of Child Psychology and Psychiatry; Visual Cognition; Cognition and Emotion; New Ideas in Psychology; Journal of Autism and Developmental Disorders; Research in Autism Spectrum Disorders; Research in Developmental Disabilities; International Journal of Social Robotics.
 
 ---
 
