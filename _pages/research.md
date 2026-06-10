@@ -15,7 +15,7 @@ The Behavioral Design Laboratory studies and designs **human–human interaction
 We combine **applied behavior analysis**, **single-case experimental designs**, **psychological experiments**, and **interactive technologies** to observe, measure, and redesign social interaction.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="/assets/images/research-focus-260610.png"
+  <img src="/images/research-focus-260610.png"
        alt="Behavioral Design Laboratory Research Framework"
        style="max-width:100%; width:1000px;">
 </div>
