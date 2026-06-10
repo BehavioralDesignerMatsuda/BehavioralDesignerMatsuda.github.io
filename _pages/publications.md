@@ -60,67 +60,34 @@ author_profile: true
     {% assign kind = 'conferences' %}
   {% endif %}
 
+  ```liquid
   <article class="archive__item pub-item" data-kind="{{ kind }}" itemscope itemtype="http://schema.org/CreativeWork">
     <h3 class="archive__item-title" itemprop="headline">
       <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
     </h3>
 
-    {%- comment -%} 著者表示（authors / author / citation）+ 自分の名前を太字 {%- endcomment -%}
-    {% assign authors_line = nil %}
-    {% if item.authors %}
-      {% assign authors_line = item.authors | join: ", " %}
-    {% elsif item.author %}
-      {% assign authors_line = item.author %}
-    {% elsif item.citation %}
-      {%- assign authors_line = item.citation | split: '(' | first | strip -%}
-    {% endif %}
-
-   {%- comment -%} ご本人名（英/日/表記揺れ）を太字に置換 {%- endcomment -%}
-{% if authors_line %}
-  {% assign my_en = "Soichiro Matsuda" %}
-  {% assign my_en_rev = "Matsuda Soichiro" %}
-  {% assign my_en_rev_comma = "Matsuda, Soichiro" %}
-  {% assign my_en_initial = "Matsuda, S." %}
-  {% assign my_en_initial_nodot = "Matsuda, S" %}
-  {% assign my_en_initial_rev = "S. Matsuda" %}
-  {% assign my_en_initial_rev_nodot = "S Matsuda" %}
-  {% assign my_ja = "松田 壮一郎" %}
-  {% assign my_ja_nospace = "松田壮一郎" %}
-
-  {% assign authors_line = authors_line
-    | replace: my_en, "<strong>Soichiro Matsuda</strong>"
-    | replace: my_en_rev, "<strong>Matsuda Soichiro</strong>"
-    | replace: my_en_rev_comma, "<strong>Matsuda, Soichiro</strong>"
-    | replace: my_en_initial, "<strong>Matsuda, S.</strong>"
-    | replace: my_en_initial_nodot, "<strong>Matsuda, S</strong>"
-    | replace: my_en_initial_rev, "<strong>S. Matsuda</strong>"
-    | replace: my_en_initial_rev_nodot, "<strong>S Matsuda</strong>"
-    | replace: my_ja, "<strong>松田 壮一郎</strong>"
-    | replace: my_ja_nospace, "<strong>松田壮一郎</strong>" %}
-  <p class="archive__item-authors">{{ authors_line }}</p>
-{% endif %}
-
-
-    {% assign year = item.date | date: "%Y" %}
-    <div class="archive__item-meta">
-      <span>{{ year }}</span>
-      {% if item.venue %}
-        {% if kind == 'journals' or kind == 'domestic' %}
-          <span> · <em>{{ item.venue }}</em></span>
-        {% else %}
-          <span> · {{ item.venue }}</span>
-        {% endif %}
-      {% endif %}
-      {% if kind != 'other' %}<span> · {{ kind | capitalize }}</span>{% endif %}
-    </div>
-
-
     {% if item.citation %}
       <p class="archive__item-citation">
         {{ item.citation | markdownify }}
       </p>
+    {% else %}
+      {%- comment -%} citation がない場合の最低限のフォールバック {%- endcomment -%}
+      {% assign year = item.date | date: "%Y" %}
+      <p class="archive__item-citation">
+        {{ item.title }}{% if item.venue %}. <em>{{ item.venue }}</em>{% endif %}{% if year %}, {{ year }}{% endif %}.
+      </p>
+    {% endif %}
+
+    {% if item.tags %}
+      <p class="archive__item-tags">
+        {% for tag in item.tags %}
+          <span class="pub-tag">{{ tag }}</span>
+        {% endfor %}
+      </p>
     {% endif %}
   </article>
+```
+
 
 {% endfor %}
 </div>
