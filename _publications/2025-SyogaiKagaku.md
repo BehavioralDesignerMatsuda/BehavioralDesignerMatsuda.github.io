@@ -40,4 +40,5 @@ The study contributes to the Training and Verbal Behavior lines by examining how
 ## Recommended citation
 
 南 遥花・松田 壮一郎（2025）．言語症のある幼児の音声発話に対する随伴模倣の効果：ケーススタディ．*障害科学研究，49*(1)，125–134．https://doi.org/10.20847/adsj.49.1_125
+
 ---
