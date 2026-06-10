@@ -85,7 +85,7 @@ redirect_from:
 - 筑波大学 人工知能研究室（鈴木健嗣教授） 研究員（2015–2018）
 
 ## 査読歴（近年・抜粋）
-npj Digital Medicine; JMIR Aging; BMC Psychiatry/Psychology／Digital Health／IEEE Robotics and Automation Letters／Interacting with Computers／RO-MAN／Frontiers in Psychiatry／Frontiers in Psychology／特殊教育学研究／Japanese Psychological Research／International Journal of Disability, Development and Education／Autism Research／Journal of Child Psychology and Psychiatry／Visual Cognition／Cognition and Emotion／New Ideas in Psychology／Journal of Autism and Developmental Disorders／Research in Autism Spectrum Disorders／Research in Developmental Disabilities／International Journal of Social Robotics
+npj Digital Medicine／JMIR Aging／BMC Psychiatry/BMC Psychology／BMC Digital Health／IEEE Robotics and Automation Letters／Interacting with Computers／RO-MAN／Frontiers in Psychiatry／Frontiers in Psychology／特殊教育学研究／Japanese Psychological Research／International Journal of Disability, Development and Education／Autism Research／Journal of Child Psychology and Psychiatry／Visual Cognition／Cognition and Emotion／New Ideas in Psychology／Journal of Autism and Developmental Disorders／Research in Autism Spectrum Disorders／Research in Developmental Disabilities／International Journal of Social Robotics
 
 ---
 
