@@ -115,9 +115,9 @@ author_profile: true
     </div>
 
 
-    {% if item.excerpt or item.description %}
-      <p class="archive__item-excerpt" itemprop="description">
-        {{ item.excerpt | default: item.description | markdownify | strip_html }}
+    {% if item.citation %}
+      <p class="archive__item-citation">
+        {{ item.citation | markdownify }}
       </p>
     {% endif %}
   </article>
