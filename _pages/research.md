@@ -14,15 +14,21 @@ redirect_from:
 The Behavioral Design Laboratory studies and designs **human–human interaction** in real-world settings.
 We combine **applied behavior analysis**, **single-case experimental designs**, **psychological experiments**, and **interactive technologies** to observe, measure, and redesign social interaction.
 
-Our work can be read through three connected research areas:
+<div style="text-align:center; margin: 2rem 0;">
+  <img src="/assets/images/research-focus-260610.png"
+       alt="Behavioral Design Laboratory Research Framework"
+       style="max-width:100%; width:1000px;">
+</div>
 
--**Autism support**: technology-enhanced behavioral support for children, families, and practitioners
+*Human–Human Interaction: Measuring, Supporting, and Training*
 
--**Social interaction**: behavioral design of conversation, interviews, feedback, and communication
+Our work focuses on human–human interaction through three interconnected activities:
 
--**Verbal behavior**: language, learning, stimulus relations, and everyday social behavior
+- **Measuring** interaction through observation, sensing, and assessment
+- **Supporting** interaction through behavioral support and technology
+- **Training** interaction through skill development and behavioral intervention
 
-Across these areas, we aim to develop practical methods and systems that make human interaction more observable, teachable, and redesignable.
+These activities are reflected across our research on autism support, social interaction, and verbal behavior.
 
 ### 1) Human Interaction in Autism Support
 
