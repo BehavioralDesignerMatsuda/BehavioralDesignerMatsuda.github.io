@@ -19,7 +19,7 @@ tags:
 - Developmental Trajectories
 
 ## excerpt: ''
-
+---
 ## Summary
 
 This study examined developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities. The study focused on how challenging behaviors were reported to change across development, based on parental retrospective accounts.
@@ -28,9 +28,9 @@ The study contributes to the Measuring line by organizing caregiver-reported his
 
 ## Research line
 
-* **Measuring**: retrospective measurement of developmental changes in challenging behavior
-* **Intellectual Disabilities**: caregiver-reported trajectories among adults with intellectual disabilities
-* **Applied Support**: information for assessment and support planning across development
+- **Measuring**: retrospective measurement of developmental changes in challenging behavior
+- **Intellectual Disabilities**: caregiver-reported trajectories among adults with intellectual disabilities
+- **Applied Support**: information for assessment and support planning across development
 
 ## Links
 
