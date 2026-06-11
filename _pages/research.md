@@ -20,15 +20,13 @@ We combine **applied behavior analysis**, **single-case experimental designs**, 
        style="max-width:100%; width:1000px;">
 </div>
 
-*Human–Human Interaction: Measuring, Supporting, and Training*
+Our work is organized around three connected operations:
 
-Our work focuses on human–human interaction through three interconnected activities:
+- **Measuring interaction**: recording, visualizing, and quantifying interaction in real-world contexts
+- **Arranging conditions**: configuring tools, environments, and contingencies in which interaction occurs
+- **Building repertoires**: establishing and expanding behavioral repertoires that participate in interaction
 
-- **Measuring** interaction through observation, sensing, and assessment
-- **Supporting** interaction through behavioral support and technology
-- **Training** interaction through skill development and behavioral intervention
-
-These activities are reflected across our research on autism support, social interaction, and verbal behavior.
+These operations are reflected across our research on autism support, social interaction, and verbal behavior.
 
 ### 1) Human Interaction in Autism Support
 
