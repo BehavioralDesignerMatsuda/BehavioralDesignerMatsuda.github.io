@@ -16,7 +16,7 @@ redirect_from:
 応用行動分析学、シングルケース実験デザイン、心理学実験、インタラクティブ技術を組み合わせながら、社会的相互作用を観察・測定・再設計する方法を検討しています。
 
 <div style="text-align:center; margin: 2rem 0;">
-  <img src="/images/research-focus-260610.png"
+  <img src="/images/research-focus-260611.png"
        alt="行動デザイン研究室の研究フレームワーク"
        style="max-width:100%; width:1000px;">
 </div>
