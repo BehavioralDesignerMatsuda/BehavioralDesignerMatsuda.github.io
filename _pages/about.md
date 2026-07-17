@@ -78,7 +78,7 @@ I keep a living, HCI-oriented overview of my lab’s work here:
 
 ## Service — Editorial/Peer review (selected, recent)
 
-npj Digital Medicine; JMIR Aging; BMC Psychiatry/Psychology/Digital Health; IEEE Robotics and Automation Letters; Interacting with Computers; RO-MAN; Frontiers in Psychiatry/Psychology; Journal of Special Education Research; Japanese Psychological Research; International Journal of Disability, Development and Education; Autism Research; Journal of Child Psychology and Psychiatry; Visual Cognition; Cognition and Emotion; New Ideas in Psychology; Journal of Autism and Developmental Disorders; Research in Autism Spectrum Disorders; Research in Developmental Disabilities; International Journal of Social Robotics.
+Scientific Reports; npj Digital Medicine; JMIR Aging; BMC Psychiatry/Psychology/Digital Health; IEEE Robotics and Automation Letters; Interacting with Computers; RO-MAN; Frontiers in Psychiatry/Psychology; Journal of Special Education Research; Japanese Psychological Research; International Journal of Disability, Development and Education; Autism Research; Journal of Child Psychology and Psychiatry; Visual Cognition; Cognition and Emotion; New Ideas in Psychology; Journal of Autism and Developmental Disorders; Research in Autism Spectrum Disorders; Research in Developmental Disabilities; International Journal of Social Robotics.
 
 ---
 
