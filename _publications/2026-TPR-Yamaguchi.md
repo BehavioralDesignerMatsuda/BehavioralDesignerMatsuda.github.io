@@ -9,7 +9,7 @@ lang_pub: en
 paperurl: 'https://doi.org/10.1007/s40732-026-00694-z'
 doi: 'https://doi.org/10.1007/s40732-026-00694-z'
 
-citation: 'Yamaguchi, M., Yusunoki, D., & Matsuda, S. (2026). Effects of covert repetition instruction and vocal blocking procedure on the acquisition and maintenance of tact in foreign languages. The Psychological Record. https://doi.org/10.1007/s40732-026-00694-z'
+citation: 'Yamaguchi, M., Yusunoki, D., & Matsuda, S. (2026). Effects of covert repetition instruction and vocal blocking procedure on the acquisition and maintenance of tact in foreign languages. *The Psychological Record*. https://doi.org/10.1007/s40732-026-00694-z'
 
 tags:
   - Building
