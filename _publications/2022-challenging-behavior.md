@@ -8,7 +8,7 @@ category: journals
 paperurl: 'https://doi.org/10.1080/20473869.2022.2087450'
 doi: 'https://doi.org/10.1080/20473869.2022.2087450'
 
-citation: 'Inoue, M., Gomi, Y., & Matsuda, S. (2024). Developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities. *International Journal of Developmental Disabilities*, 70(2), 287–295. https://doi.org/10.1080/20473869.2022.2087450'
+citation: 'Inoue, M., Gomi, Y., & Matsuda, S. (2022). Developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities. *International Journal of Developmental Disabilities*, 70(2), 287–295. https://doi.org/10.1080/20473869.2022.2087450'
 
 tags:
 
@@ -38,6 +38,6 @@ The study contributes to the Measuring line by organizing caregiver-reported his
 
 ## Recommended citation
 
-Inoue, M., Gomi, Y., & Matsuda, S. (2024). Developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities. *International Journal of Developmental Disabilities, 70*(2), 287–295. https://doi.org/10.1080/20473869.2022.2087450
+Inoue, M., Gomi, Y., & Matsuda, S. (2022). Developmental trajectories of challenging behaviors reported retrospectively by Japanese parents of adult children with intellectual disabilities. *International Journal of Developmental Disabilities, 70*(2), 287–295. https://doi.org/10.1080/20473869.2022.2087450
 
 ---
